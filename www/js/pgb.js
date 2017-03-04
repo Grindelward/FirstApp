@@ -16,7 +16,9 @@ function deviceInfo() {
 			'Device UUID    : '     + device.uuid     + '\n' + 
 			'Device Model   : '    + device.model     + '\n' + 
 			'Device Version : '  + device.version  + '\n';
+			
+	myInfo = 'Przemyslaw Nowicki'
 
-	navigator.notification.alert(info);
+	navigator.notification.alert(myInfo);
 	
 }
